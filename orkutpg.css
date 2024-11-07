@@ -1,0 +1,38 @@
+.logo{
+    width: 80px;
+    height: 44px;
+    margin: 0px 6px;
+    margin-top: 6px;
+}
+
+.cabecalho{
+    background-color: rgb(0, 110, 255);
+    height: 56px;
+    display: flex; 
+}
+
+p{
+    margin-left: 45px;
+    color: antiquewhite;
+}
+.saída{
+    margin-left: 810px;
+}
+input{
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 200px;
+}
+.tudo{
+    background-color: aliceblue;
+    height: 961px;
+}
+.ftperfil{
+    height: 220px;
+}
+.foto{
+    background-color: blanchedalmond;
+    width: 275px;
+    height: 830px;
+}

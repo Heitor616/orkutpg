@@ -1,235 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orkut - Perfil</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #E7EBF2;
-            margin: 0;
-            padding: 0;
-            color: #4A4A4A;
-        }
-
-        .container {
-            width: 700px;
-            margin: 20px auto;
-            background-color: #FFFFFF;
-            border: 1px solid #D0D0D0;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .header {
-            background-color: #497DB6;
-            color: #FFF;
-            padding: 15px;
-            font-size: 1.2em;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .header img {
-            height: 24px;
-        }
-
-        .profile-sidebar {
-            width: 200px;
-            float: left;
-            border-right: 1px solid #D0D0D0;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-        .profile-sidebar img {
-            width: 100%;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-
-        .profile-info {
-            margin-bottom: 15px;
-        }
-
-        .profile-info p {
-            margin: 5px 0;
-            font-size: 0.9em;
-            color: #333;
-        }
-
-        .profile-info button {
-            background-color: #FFC107;
-            color: #FFF;
-            border: none;
-            padding: 5px 10px;
-            font-size: 0.8em;
-            cursor: pointer;
-            border-radius: 3px;
-        }
-
-        .menu p {
-            font-size: 0.9em;
-            color: #497DB6;
-            margin: 10px 0;
-            cursor: pointer;
-        }
-
-        .main-profile {
-            padding: 15px;
-            box-sizing: border-box;
-            overflow: hidden;
-        }
-
-        .main-profile h2 {
-            font-size: 1.5em;
-            color: #497DB6;
-            margin-bottom: 5px;
-        }
-
-        .main-profile p.quote {
-            color: #777;
-            font-size: 0.9em;
-        }
-
-        .info-table {
-            width: 100%;
-            margin-top: 10px;
-            border-collapse: collapse;
-            color: #4A4A4A;
-        }
-
-        .info-table td {
-            padding: 8px;
-            border: 1px solid #E0E0E0;
-            font-size: 0.9em;
-        }
-
-        .friends, .communities {
-            margin-top: 20px;
-        }
-
-        .friends h3, .communities h3 {
-            font-size: 1.1em;
-            color: #497DB6;
-            margin-bottom: 10px;
-        }
-
-        .friends p, .communities p {
-            font-size: 0.9em;
-            color: #333;
-        }
-
-        .communities img {
-            width: 50px;
-            height: 50px;
-            border-radius: 5px;
-            vertical-align: middle;
-            margin-right: 10px;
-        }
-
-        .footer {
-            padding: 10px;
-            font-size: 0.8em;
-            color: #999;
-            border-top: 1px solid #D0D0D0;
-            text-align: center;
-        }
-
-        .search-bar {
-            background-color: #FFF;
-            padding: 5px;
-            border: 1px solid #D0D0D0;
-            border-radius: 3px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 5px 0;
-        }
-
-        .search-bar input[type="text"] {
-            border: none;
-            outline: none;
-            width: 100%;
-            padding: 5px;
-        }
-
-        .search-bar button {
-            background-color: #497DB6;
-            color: #FFF;
-            border: none;
-            padding: 5px 10px;
-            cursor: pointer;
-            font-size: 0.9em;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="orkutpg.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <img src="orkut-logo.png" alt="Orkut Logo">
-            <div class="search-bar">
-                <input type="text" placeholder="pesquisa do orkut">
-                <button>Buscar</button>
-            </div>
-            <a href="#" style="color: #FFF; font-size: 0.9em;">Sair</a>
+    <div class="tudo">
+        <div class="cabecalho">
+            <img src="https://s2-techtudo.glbimg.com/VvsjJU-B9s3-Cr4n7sjJrGCed-0=/0x0:300x270/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/n/V/L3ksmeSlOSRYiQTsL9eA/2011-05-24-novo-logo-orkut.jpg" alt="" class="logo">
+            <p> Inicio</p>
+            <p>Perfil</p>
+            <p>Pagina de recados</p>
+            <p>Amigos</p>
+            <p>Comunidades</p>
+            <p class="saída">Sair</p>
+            <input type="text">
         </div>
-
-        <div class="profile-sidebar">
-            <img src="profile-pic.jpg" alt="">
-            <div class="profile-info">
-                <p><strong>Heitor R. Menino</strong></p>
-                <p>Masculino, solteiro(a)</p>
-                <p>Brasil</p>
-                <button>Editar Perfil</button>
-            </div>
-            <div class="menu">
-                <p>Perfil</p>
-                <p>Recados</p>
-                <p>Álbum</p>
-                <p>Vídeos</p>
-                <p>Feeds</p>
-                <p>Listas</p>
-                <p>Mensagens</p>
-                <p>Depoimentos</p>
-                <p>Configurações</p>
-            </div>
-        </div>
-
-        <div class="main-profile">
-            <h2>Heitor R. Menino</h2>
-            <p class="quote">Invadiram minha casa e calvaram meu gato</p>
-
-            <table class="info-table">
-                <tr>
-                    <td>Aniversário</td>
-                    <td>01/09/2007</td>
-                </tr>
-                <tr>
-                    <td>Relacionamento</td>
-                    <td>Solteiro</td>
-                </tr>
-                <tr>
-                    <td>Quem sou eu</td>
-                    <td>Músico da OSPG</td>
-                </tr>
-                <tr>
-                    <td>País</td>
-                    <td>Brasil</td>
-                </tr>
-            </table>
-
-            <div class="friends">
-                <h3>Meus Amigos (0)</h3>
-                <p>Você ainda não adicionou nenhum amigo</p>
-                <button>Adicionar Amigos</button>
-            </div>
-
-            <div class="communities">
-                <h3>Minhas Comunidades (0)</h3>
-                <p>Você ainda não entrou em comunidades</p>
-            </div>
+        <div class="foto">
+            <img src="https://static.wikia.nocookie.net/companhia-da-zueira/images/9/91/J%C3%BAlio.png/revision/latest/scale-to-width-down/400?cb=20230623184759&path-prefix=pt-br" class="ftperfil">
         </div>
     </div>
 </body>
