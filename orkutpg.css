@@ -25,14 +25,22 @@ input{
     width: 200px;
 }
 .tudo{
-    background-color: aliceblue;
+    background-color: bisque;
     height: 961px;
-}
-.ftperfil{
-    height: 220px;
+    display: flex;
+    flex-direction: column;
 }
 .foto{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     width: 275px;
     height: 830px;
+}
+.ftperfil{
+    height: 230px;
+    width: 230px;
+    margin: 15px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
 }
